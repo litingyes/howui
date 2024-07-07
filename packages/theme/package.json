@@ -1,6 +1,7 @@
 {
   "name": "@unui/theme",
   "version": "0.0.0",
+  "private": false,
   "description": "Theme for unui",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
