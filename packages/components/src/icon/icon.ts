@@ -28,7 +28,7 @@ export class HowIcon extends LitElement {
     }
 
     return html`
-      <i style=${styleMap(iStyles)}>
+      <i aria-hidden="true" style=${styleMap(iStyles)}>
         <slot></slot>
       </i>
     `
