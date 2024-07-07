@@ -1,6 +1,7 @@
 {
   "name": "unui",
   "version": "0.0.0",
+  "packageManager": "pnpm@9.4.0",
   "description": "Web components UI library",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
