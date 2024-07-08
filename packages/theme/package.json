@@ -7,6 +7,10 @@
   "license": "MIT",
   "keywords": ["web components", "UI", "lit"],
   "exports": {
-    "./theme.css": "./src/index.css"
+    "./theme.css": "./dist/index.css"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "node ./scripts/build.js"
   }
 }
