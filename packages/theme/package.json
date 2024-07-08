@@ -5,5 +5,8 @@
   "description": "Theme for howui",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
-  "keywords": ["web components", "UI", "lit"]
+  "keywords": ["web components", "UI", "lit"],
+  "exports": {
+    "./theme.css": "./src/index.css"
+  }
 }

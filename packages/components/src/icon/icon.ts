@@ -8,7 +8,7 @@ export class HowIcon extends LitElement {
   size = 24
 
   @property({ type: String })
-  color = '#2563eb'
+  color = 'var(--howui-icon-color-primary)'
 
   static styles = css`
     :host {

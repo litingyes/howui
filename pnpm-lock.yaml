@@ -109,6 +109,9 @@ importers:
       '@howui/components':
         specifier: workspace:*
         version: link:../components
+      '@howui/theme':
+        specifier: workspace:*
+        version: link:../theme
 
   packages/theme: {}
 
