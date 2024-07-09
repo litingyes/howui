@@ -19,12 +19,17 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build",
     "prepublish": "vite build"
   },
   "dependencies": {
     "lit": "^3.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3"
   }
 }

@@ -5,4 +5,7 @@ export default antfu({
   typescript: true,
   react: true,
   jsx: true,
+  rules: {
+    '@typescript-eslint/no-namespace': 0,
+  },
 })

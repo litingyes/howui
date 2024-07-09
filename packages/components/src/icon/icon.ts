@@ -34,3 +34,16 @@ export class HowIcon extends LitElement {
     `
   }
 }
+
+declare global {
+
+  interface HTMLElementTagNameMap {
+    'how-icon': HowIcon
+  }
+
+  namespace JSX {
+    interface IntrinsicElements {
+      'how-icon': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
+    }
+  }
+}

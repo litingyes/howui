@@ -15,9 +15,6 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "types": [
-      "./howui.d.ts"
-    ],
     "allowImportingTsExtensions": true,
     /* Linting */
     "strict": true,
