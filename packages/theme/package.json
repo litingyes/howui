@@ -5,12 +5,21 @@
   "description": "Theme for howui",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
-  "keywords": ["web components", "UI", "lit"],
+  "keywords": [
+    "web components",
+    "UI",
+    "lit"
+  ],
   "exports": {
-    "./theme.css": "./dist/index.css"
+    "./theme.css": "./dist/css/theme.css"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "node ./scripts/build.js"
+    "build": "rimraf dist && style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.0.0"
   }
 }

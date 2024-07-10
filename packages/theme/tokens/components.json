@@ -1,0 +1,10 @@
+{
+  "icon": {
+    "color": {
+      "$type": "color",
+      "primary": {
+        "$value": "{color.primary.500}"
+      }
+    }
+  }
+}

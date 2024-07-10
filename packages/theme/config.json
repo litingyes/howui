@@ -1,0 +1,22 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/css/",
+      "files": [
+        {
+          "destination": "theme.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true,
+            "formatting": {
+              "prefix": "--howui-",
+              "fileHeaderTimestamp": true
+            }
+          }
+        }
+      ]
+    }
+  }
+}
