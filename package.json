@@ -11,7 +11,7 @@
     "lit"
   ],
   "scripts": {
-    "release": "bumpp",
+    "release": "bumpp -r",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky",
