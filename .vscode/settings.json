@@ -1,11 +1,13 @@
 {
   "cSpell.words": [
     "bumpp",
+    "formkit",
     "howui",
     "jiti",
     "preid",
     "shiki",
-    "shikijs"
+    "shikijs",
+    "vitesse"
   ],
 
   // eslint config for @antfu/eslint-config
