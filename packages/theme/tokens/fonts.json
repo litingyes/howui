@@ -1,0 +1,30 @@
+{
+  "fs": {
+    "sm": {
+      "value": "12px"
+    },
+    "md": {
+      "value": "16px"
+    },
+    "lg": {
+      "value": "20px"
+    },
+    "xl": {
+      "value": "24px"
+    }
+  },
+  "lh": {
+    "sm": {
+      "value": "20px"
+    },
+    "md": {
+      "value": "24px"
+    },
+    "lg": {
+      "value": "28px"
+    },
+    "xl": {
+      "value": "32px"
+    }
+  }
+}

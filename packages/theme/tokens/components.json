@@ -1,9 +1,105 @@
 {
   "icon": {
     "color": {
-      "$type": "color",
       "primary": {
-        "$value": "{color.primary.500}"
+        "value": "{color.primary.500}"
+      }
+    }
+  },
+  "button": {
+    "size": {
+      "sm": {
+        "value": "{size.sm}"
+      },
+      "md": {
+        "value": "{size.md}"
+      },
+      "lg": {
+        "value": "{size.lg}"
+      }
+    },
+    "pd": {
+      "sm": {
+        "value": "{pd.0} {pd.sm}"
+      },
+      "md": {
+        "value": "{pd.0} {pd.md}"
+      },
+      "lg": {
+        "value": "{pd.sm} {pd.lg}"
+      }
+    },
+    "br": {
+      "sm": {
+        "value": "{br.md}"
+      },
+      "md": {
+        "value": "{br.md}"
+      },
+      "lg": {
+        "value": "{br.lg}"
+      }
+    },
+    "fs": {
+      "sm": {
+        "value": "{fs.sm}"
+      },
+      "md": {
+        "value": "{fs.md}"
+      },
+      "lg": {
+        "value": "{fs.lg}"
+      }
+    },
+    "lh": {
+      "sm": {
+        "value": "{lh.sm}"
+      },
+      "md": {
+        "value": "{lh.md}"
+      },
+      "lg": {
+        "value": "{lh.lg}"
+      }
+    },
+    "color": {
+      "default": {
+        "value": "{color.text.default}"
+      },
+      "primary": {
+        "value": "{color.white}"
+      }
+    },
+    "bg": {
+      "default": {
+        "value": "{color.white}"
+      },
+      "primary": {
+        "value": "{color.primary.500}"
+      },
+      "hover": {
+        "default": {
+          "value": "{color.gray.300}"
+        },
+        "primary": {
+          "value": "{color.primary.600}"
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{color.gray.400}"
+        },
+        "primary": {
+          "value": "{color.primary.700}"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "value": "1px solid {color.gray.500}"
+      },
+      "primary": {
+        "value": "none"
       }
     }
   }
