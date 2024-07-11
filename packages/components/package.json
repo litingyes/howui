@@ -6,6 +6,11 @@
   "description": "Components for howui",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litingyes/howui.git",
+    "directory": "packages/components"
+  },
   "keywords": [
     "web components",
     "UI",

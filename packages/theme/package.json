@@ -5,6 +5,11 @@
   "description": "Theme for howui",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litingyes/howui.git",
+    "directory": "packages/theme"
+  },
   "keywords": [
     "web components",
     "UI",
