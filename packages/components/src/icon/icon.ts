@@ -1,5 +1,6 @@
 import { LitElement, css, html } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
+import { classMap } from 'lit/directives/class-map.js'
 import { styleMap } from 'lit/directives/style-map.js'
 
 @customElement('how-icon')
@@ -17,7 +18,11 @@ export class HowIcon extends LitElement {
   `
 
   render() {
-    const iStyles = {
+    const classes = {
+      'howui-icon': true,
+    }
+
+    const iconStyles = {
       display: 'inline-flex',
       justifyContent: 'center',
       alignItems: 'center',
@@ -28,7 +33,7 @@ export class HowIcon extends LitElement {
     }
 
     return html`
-      <i aria-hidden="true" style=${styleMap(iStyles)}>
+      <i part="howui-icon" class=${classMap(classes)} aria-hidden="true" style=${styleMap(iconStyles)}>
         <slot></slot>
       </i>
     `

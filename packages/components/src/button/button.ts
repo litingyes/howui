@@ -75,7 +75,7 @@ export class HowButton extends LitElement {
     }
 
     return html`
-      <button class=${classMap(classes)} style=${styleMap(buttonStyles)}>
+      <button part="howui-button" class=${classMap(classes)} style=${styleMap(buttonStyles)}>
         <slot></slot>
       </button>
     `
