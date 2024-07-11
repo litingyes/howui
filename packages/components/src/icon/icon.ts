@@ -41,7 +41,7 @@ declare global {
     'how-icon': HowIcon
   }
 
-  namespace JSX {
+  namespace React.JSX {
     interface IntrinsicElements {
       'how-icon': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>
     }

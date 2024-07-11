@@ -1,4 +1,10 @@
+import { fileURLToPath } from 'node:url'
+import { dirname, resolve } from 'node:path'
+import { readFileSync } from 'node:fs'
 import { defineConfig } from 'vitepress'
+import container from 'markdown-it-container'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   themeConfig: {
@@ -108,6 +114,25 @@ export default defineConfig({
       compilerOptions: {
         isCustomElement: tag => !!tag.startsWith('how-'),
       },
+    },
+  },
+  markdown: {
+    config: (md) => {
+      md.use(container, 'demo', {
+        validate: (param: string) => /^demo\s\S+$/.test(param.trim()),
+        // @ts-expect-error type
+        render: (tokens, idx) => {
+          if (tokens[idx].nesting === 1) {
+            const demoComponentName = tokens[idx].info.trim().match(/^demo\s+(\S+)$/)[1].trim()
+            const source = readFileSync(resolve(__dirname, './theme/components/demos', `${demoComponentName}.vue`), 'utf-8')
+
+            return `<CodeDemo demo="${demoComponentName}" source="${encodeURIComponent(source)}">\n`
+          }
+          else {
+            return '</CodeDemo>\n'
+          }
+        },
+      })
     },
   },
 })

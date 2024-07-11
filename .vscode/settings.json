@@ -3,7 +3,9 @@
     "bumpp",
     "howui",
     "jiti",
-    "preid"
+    "preid",
+    "shiki",
+    "shikijs"
   ],
 
   // eslint config for @antfu/eslint-config
