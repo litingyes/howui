@@ -11,6 +11,9 @@ export class HowButton extends LitElement {
   @property({ type: String })
   size = 'md'
 
+  @property({ type: Boolean })
+  icon = false
+
   static styles = css`
   :host {
     display: contents
@@ -55,14 +58,20 @@ export class HowButton extends LitElement {
     const classes = {
       'howui-button': true,
       'primary': this.type === 'primary',
+      'icon': this.icon,
     }
 
     const buttonStyles = {
+      width: 'max-content',
       height: `var(--howui-button-size-${this.size})`,
       padding: `var(--howui-button-pd-${this.size})`,
       borderRadius: `var(--howui-button-br-${this.size})`,
       fontSize: `var(--howui-button-fs-${this.size})`,
       lineHeight: `var(--howui-button-lh-${this.size})`,
+    }
+
+    if (this.icon) {
+      buttonStyles.width = `var(--howui-button-size-${this.size})`
     }
 
     return html`
