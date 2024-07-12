@@ -1,7 +1,7 @@
 {
   "name": "@howui/components",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.1",
   "private": false,
   "description": "Components for howui",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",

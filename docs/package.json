@@ -1,6 +1,7 @@
 {
   "name": "@howui/docs",
   "type": "module",
+  "version": "0.0.1-alpha.1",
   "private": true,
   "scripts": {
     "dev": "vitepress dev",
