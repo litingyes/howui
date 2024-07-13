@@ -8,6 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   themeConfig: {
+    logo: '/svgs/logo.svg',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/litingyes/howui' },
     ],
@@ -19,6 +20,12 @@ export default defineConfig({
       provider: 'local',
     },
   },
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '/svgs/logo.svg' },
+    ],
+  ],
   locales: {
     'root': {
       label: 'English',

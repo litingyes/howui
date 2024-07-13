@@ -5,6 +5,9 @@ hero:
   name: HOW UI
   text: Web components UI library
   tagline: Explore best UI practices
+  image:
+    src: /svgs/logo-home.svg
+    alt: Logo
   actions:
     - theme: brand
       text: Guide

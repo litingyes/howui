@@ -5,6 +5,9 @@ hero:
   name: HOW UI
   text: Web components UI 组件库
   tagline: 探索最佳的UI实践
+  image:
+    src: /svgs/logo-home.svg
+    alt: Logo
   actions:
     - theme: brand
       text: 指南
